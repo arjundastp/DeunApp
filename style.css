@@ -143,6 +143,89 @@ body {
     line-height: 1.8;
 }
 
+/* Privacy Section */
+.privacy {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: white;
+}
+
+.privacy h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    color: #667eea;
+}
+
+.privacy-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.privacy-section {
+    background: #f9f9f9;
+    padding: 3rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    border-left: 4px solid #667eea;
+}
+
+.last-updated {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 2rem;
+    text-align: right;
+    font-size: 0.9rem;
+}
+
+.privacy-section h3 {
+    color: #667eea;
+    margin: 2rem 0 1rem 0;
+    font-size: 1.3rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #eee;
+}
+
+.privacy-section p {
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+.privacy-section ul {
+    margin: 1rem 0;
+    padding-left: 2rem;
+}
+
+.privacy-section li {
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 0.5rem;
+}
+
+.privacy-section li strong {
+    color: #667eea;
+}
+
+.contact-details {
+    background: #e8f0ff;
+    padding: 1.5rem;
+    border-radius: 6px;
+    margin-top: 1rem;
+    border-left: 3px solid #667eea;
+}
+
+.contact-details p {
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.contact-details strong {
+    color: #667eea;
+}
+
 /* Contact Section */
 .contact {
     background: #f5f5f5;
@@ -261,7 +344,8 @@ body {
     }
 
     .services h2,
-    .contact h2 {
+    .contact h2,
+    .privacy h2 {
         font-size: 1.5rem;
     }
 
@@ -276,6 +360,14 @@ body {
     .hero {
         padding: 3rem 1rem;
         min-height: 300px;
+    }
+
+    .privacy-section {
+        padding: 2rem;
+    }
+
+    .privacy-section h3 {
+        font-size: 1.2rem;
     }
 }
 
@@ -300,5 +392,21 @@ body {
     .cta-btn {
         padding: 0.6rem 1.5rem;
         font-size: 0.9rem;
+    }
+
+    .privacy-section {
+        padding: 1.5rem;
+    }
+
+    .privacy-section ul {
+        padding-left: 1rem;
+    }
+
+    .privacy-section h3 {
+        font-size: 1.1rem;
+    }
+
+    .contact-details {
+        padding: 1rem;
     }
 }
